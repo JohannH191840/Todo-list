@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todosss.css">
+</head>
+<body>
+
+    <div id="dot">
+        <div id="box"> This <br>Week</div>
+        <div id="title"> Goals</div>
+            <div id="titles"> List For</div>
+            
+    </div>
+    <main>
+        <form id="todoForm">
+            <input type="text" placeholder="Enter Your Todo List" name="name" required/>
+            <input type="datetime-local" placeholder="Text date" name="date" required/>
+            <button>Add To List</button>
+            <button class="clear" onclick="alldeleteTodos()">Remove All</button>
+            
+        </form>
+
+   
+        <div class="todos"> </div>
+       
+       
+    </main>
+
+    <script src="./todoss.js"></script>
+    
+</body>
+</html>
